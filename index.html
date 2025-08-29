@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aparna Ganvit - Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- AOS Animation Library -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+</head>
+<body>
+  <!-- Navigation -->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home -->
+  <section id="home" class="hero" data-aos="fade-right" data-aos-duration="2000">
+    <div class="hero-content" data-aos="zoom-in" data-aos-delay="300">
+      <h1 data-aos="fade-right" data-aos-delay="600">Aparna Ganvit</h1>
+      <h2 class="typing-text" data-aos="fade-left" data-aos-delay="900"></h2>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" data-aos="fade-left" data-aos-delay="200">
+    <h2 data-aos="flip-left" data-aos-delay="400">About Me</h2>
+    <div class="about-card" data-aos="fade-right" data-aos-delay="600">
+      <h3>Hello! I'm Aparna Ganvit</h3>
+      <p>
+        I am a 3rd year undergraduate at <strong>Vishwakarma Government Engineering College (VGEC), Ahmedabad</strong>, pursuing Computer Science and Engineering (Data Science).
+      </p>
+      <ul>
+        <li><strong>Robotics Enthusiast:</strong> I love building and designing robots, and have participated in national and international competitions.</li>
+        <li><strong>Mechanical Design:</strong> Skilled in CAD and mechanical systems, I enjoy turning ideas into real-world mechanisms.</li>
+        <li><strong>Innovation:</strong> Always curious, I seek creative solutions to engineering challenges.</li>
+        <li><strong>Team Player:</strong> I value collaboration and have worked with diverse teams on complex projects.</li>
+      </ul>
+      <p>
+        Outside of academics, I enjoy <strong>playing badminton</strong> and exploring new technologies.
+      </p>
+    </div>
+  </section>
+
+
+  <!-- Projects -->
+  <section id="projects">
+    <h2 data-aos="flip-right" data-aos-delay="400">Projects</h2>
+    <div class="project-card" data-aos="zoom-in" data-aos-delay="200">
+      <h3 data-aos="fade-right" data-aos-delay="400">ABU Robocon International – Mongolia</h3>
+      <p data-aos="fade-up" data-aos-delay="600">
+        As part of the robotics team participating in the ABU Robocon International
+        Competition in Mongolia, I contributed to the mechanical design and fabrication
+        of the robot. My responsibilities included:
+      </p>
+      <ul>
+        <li data-aos="fade-left" data-aos-delay="800">Designing chassis, transmission systems, and mechanisms using CAD software.</li>
+        <li data-aos="fade-left" data-aos-delay="1000">Working on gear systems, linkages, and actuators for smooth motion.</li>
+        <li data-aos="fade-left" data-aos-delay="1200">Material selection and component integration for strength and lightweight performance.</li>
+        <li data-aos="fade-left" data-aos-delay="1400">Collaborating with electronics and programming teams for system integration.</li>
+        <li data-aos="fade-left" data-aos-delay="1600">Testing, troubleshooting, and optimizing for performance.</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" data-aos="fade-left" data-aos-delay="200">
+    <h2 data-aos="flip-up" data-aos-delay="400">Contact</h2>
+    <div class="contact-card" data-aos="fade-up" data-aos-delay="600">
+      <p>
+        <strong>Email:</strong>
+        <a href="mailto:aparnaganvit@gmail.com" class="contact-email">aparnaganvit@gmail.com</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({
+      once: false,
+      offset: 120 // triggers animation 120px before element enters viewport
+    });
+  </script>
+</body>
+</html>
